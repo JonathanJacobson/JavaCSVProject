@@ -28,6 +28,7 @@ public class AddValuesToDB {
             String insert4 = "INSERT INTO student (name, course, mark) VALUES ('Emily Davis', 'Web Development', 90)";
             String insert5 = "INSERT INTO student (name, course, mark) VALUES ('David Wilson', 'Cyber Security', 77)";
             String insert6 = "INSERT INTO student (name, course, mark) VALUES ('Lisa Taylor', 'Data Science', 85)";
+            
 
             stmt.executeUpdate(insert1);
             stmt.executeUpdate(insert2);
