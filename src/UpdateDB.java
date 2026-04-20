@@ -26,7 +26,7 @@ public class UpdateDB {
                 stmt = conn.createStatement();
 
                 // 3. Insert 6 new records
-                String update = "UPDATE Student " + "SET name='Juan'" + "WHERE id=4;";
+                String update = "UPDATE Student " + "SET name='Juan'" + "WHERE name='David Wilson';";
                 //DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 
 
